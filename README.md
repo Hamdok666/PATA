@@ -80,3 +80,12 @@ Files added in this scaffold:
 
 If you'd like a specific framework (React, Flask, etc.) scaffolded, tell me which one and I'll propose a minimal plan first.
 
+## GitHub Pages deploy
+
+I added a GitHub Actions workflow (`.github/workflows/pages.yml`) that will deploy the repository root to GitHub Pages on pushes to `main`. To enable Pages:
+
+1. Go to your repository Settings → Pages and select the `gh-pages` deployment created by the workflow, or follow the repository guidance once the workflow runs.
+2. The workflow uploads the repository root as the Pages artifact — no build step is required for this static site.
+
+Note: The first run will create the Pages site artifact; if you want me to use a different branch or path, tell me and I'll update the workflow.
+
