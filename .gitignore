@@ -1,0 +1,10 @@
+# Node / OS
+node_modules/
+.DS_Store
+*.log
+
+# Environment
+.env
+
+# Editor
+.vscode/

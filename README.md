@@ -47,11 +47,36 @@ _“Exploring Africa in style”_ – Your African Travel Adventure Starts Here!
 
 > **Fun fact**: Did you know that Africa is home to some of the world’s most unexplored natural wonders? Let's bring them to the world together. 🌍✨
 
----
 
 ## Roadmap: From 0% to 100% 🚀
 
 As of now, **PATA is in its infancy**.  
 But with your support and focus, we can get to a full-fledged **Pan-African travel agency**, connecting the world to the richness of Africa.
 
----
+
+## How to view the demo site (local)
+
+This repo currently contains a small static demo site for PATA (root `index.html`). To view it locally you can either open `index.html` directly in a browser or run a tiny static server:
+
+Using Python 3 (recommended):
+
+```bash
+python3 -m http.server 8000
+# then open http://localhost:8000 in your browser
+```
+
+Or open the file directly:
+
+```bash
+xdg-open index.html || open index.html
+```
+
+Files added in this scaffold:
+
+- `index.html`, `style.css` — root static site
+- `privacy.html`, `terms.html` — placeholder legal pages
+- `assets/africa.svg` — placeholder hero image
+- `pata/` — alternate small demo folder (can be removed if unwanted)
+
+If you'd like a specific framework (React, Flask, etc.) scaffolded, tell me which one and I'll propose a minimal plan first.
+
