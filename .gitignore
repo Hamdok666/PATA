@@ -8,3 +8,13 @@ node_modules/
 
 # Editor
 .vscode/
+
+# Cache
+.cache/
+
+# Build / deps
+dist/
+build/
+
+# Static site assets (optional)
+*.svg
